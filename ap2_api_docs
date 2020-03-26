@@ -1,0 +1,17 @@
+ _ _ _ _ _ _ _ _ _ _ _ _ 
+|                       |
+| API DOCS - AFTERPLUS2 |
+|_ _ _ _ _ _ _ _ _ _ _ _|
+
+Database - MongoDB
+Collections:
+-> College
+-> User
+-> Address
+-> Course
+-> Reviews
+
+Requirments:
+-> CRUD on college, course, user, 
+-> Getting list of colleges based on categories like "tier", "location", "stream", "course", "reviews", "rating" etc.
+-> Adding college's review, showing review.
