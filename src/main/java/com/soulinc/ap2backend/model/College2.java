@@ -1,9 +1,9 @@
-package com.soulinc.ap2backend.entity;
+package com.soulinc.ap2backend.model;
 
-public class College {
+public class College2 {
     private String college_id;
     private String college_name;
-    private Address address;
+    private AddressDTO addressDTO;
 
     public String getCollege_id() {
         return college_id;
@@ -21,20 +21,20 @@ public class College {
         this.college_name = college_name;
     }
 
-    public Address getAddress() {
-        return address;
+    public AddressDTO getAddressDTO() {
+        return addressDTO;
     }
 
-    public void setAddress(Address address) {
-        this.address = address;
+    public void setAddressDTO(AddressDTO addressDTO) {
+        this.addressDTO = addressDTO;
     }
 
     @Override
     public String toString() {
-        return "College{" +
+        return "College2{" +
                 "college_id='" + college_id + '\'' +
                 ", college_name='" + college_name + '\'' +
-                ", address=" + address +
+                ", address=" + addressDTO +
                 '}';
     }
 }
